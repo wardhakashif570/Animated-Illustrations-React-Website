@@ -4,7 +4,7 @@ import developer from '../images/developer.svg'
 import online from '../images/online1.svg'
 import useWebAnimations, { slideInLeft, fadeIn, fadeInDown, slideInUp } from '@wellyshen/use-web-animations';
 
-
+ // eslint-disable-next-line
 
 
 const Home = () => {
@@ -122,6 +122,7 @@ const Home = () => {
                 easing: 'ease-in-out',
             }
         }),
+         // eslint-disable-next-line
         [showAlert, setAlert] = useState(false);
     useEffect(() => {
         window.addEventListener('load', () => {

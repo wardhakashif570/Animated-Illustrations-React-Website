@@ -107,7 +107,7 @@ const Courses = () => {
             <Row>
                 <Col ref={ref4} id='ol'>
                     <h3 className="cl">Best Free and Paid Python Courses in 2020</h3>
-                    <ol className='ml-2' className="cl">
+                    <ol className='ml-2 cl' >
                         <li>
                         Complete Python Bootcamp: Go from zero to hero in Python (Udemy)
                             <p className='course_fee' > Buy Course on Udemy: Starting at $129.99</p>
